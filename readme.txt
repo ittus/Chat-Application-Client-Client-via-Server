@@ -13,5 +13,7 @@ Example: root|hello world : Send "hello world" to user has name is "root"
 - Validate input is not implement
 
 Picture:
-Client:
 Server:
+!["Client screenshot"](http://i100.photobucket.com/albums/m21/ittus/ScreenShot2015-02-16at111154PM_zpsd7f30b06.png "Client screenshot")
+Client:
+!["Server screenshot"](http://i100.photobucket.com/albums/m21/ittus/ScreenShot2015-02-16at111207PM_zpsea0684f1.png "Server screenshot")
