@@ -1,14 +1,17 @@
-Chuong trinh chat Client voi Client qua Server
-Chuc nang:
+Main function:
 - Login
 - Register
 - List online people
 - Chat with person
 
 Note:
-- Khi khoi dong server yeu cau nhap port de listen
-- Khi khoi dong client yeu cau nhap ip host va port de ket noi
-- Message duoc gui giua client voi client co dang [name]|[message]
-Trong do name la ten nguoi nhan, message la thong diep
-Vi du: root|hello word
-- Chua implement check valid input
+- At server's starting time, user need to enter an integer(PORT) to open PORT on server
+- At client's starting time, user need to enter address of server(ex:IP) and port to connect with server
+- Message form between client and server [name]|[message]
+ name is receiver's name, message is what you want to say with receiver
+Example: root|hello world : Send "hello world" to user has name is "root"
+- Validate input is not implement
+
+Picture:
+Client:
+Server:
